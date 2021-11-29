@@ -41,9 +41,9 @@ a {
     align-items: flex-start;
 }
 
-/* HOME*/
 
-/* ANIMACIONES */
+
+/* ANIMACIONES 
 
 li a::after{
     content:"";
@@ -64,10 +64,13 @@ li a:hover::after{
     width: 6%;
 }
 
+*/
 
 .header nav ul li {
     padding: 50px;
 }
+
+
 
 
 .flexContainer {
