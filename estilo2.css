@@ -41,6 +41,10 @@ a {
     align-items: flex-start;
 }
 
+/* HOME*/
+
+/* ANIMACIONES */
+
 li a::after{
     content:"";
     position: absolute;
@@ -64,9 +68,6 @@ li a:hover::after{
 .header nav ul li {
     padding: 50px;
 }
-
-/* HOME*/
-
 
 
 .flexContainer {
