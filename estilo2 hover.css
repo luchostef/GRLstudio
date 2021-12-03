@@ -224,10 +224,10 @@ footer {
 
 }
 
-@media (max-width:667px) {
+@media (max-width:1361px) {
 
     .header nav ul li {
-        padding: 15px;
+        padding: 50px;
     }
 
     .flexContainer3 {
