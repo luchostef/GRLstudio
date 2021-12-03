@@ -43,24 +43,24 @@ a {
 
 /* Animacion Hover*/
 
-li a::after{
-    content:"";
+li a::after {
+    content: "";
     position: absolute;
     display: block;
     height: 0.12em;
-    width:0%;
+    width: 0%;
     background-color: rgba(43, 43, 43, 0.795);
     transition: all ease-in-out 250ms;
-   
+
 }
 
-li a:hover{
+li a:hover {
     color: #f9d431;
     transition: all ease-in-out 250ms;
     font-size: 22px;
 }
 
-li a:hover::after{
+li a:hover::after {
     width: 6%;
 }
 
@@ -126,72 +126,88 @@ section ol li {
 }
 
 /*Servicios*/
- 
-h3{
+
+h3 {
     padding-bottom: 45px;
 }
-.slogan{
+
+.slogan {
     padding: 90px;
     font-style: italic;
 }
-.tabla{
-display: inline-block;
-position:relative;
-left: 450px;
+
+.tabla {
+    display: inline-block;
+    position: relative;
+    left: 450px;
 }
-tr td{
+
+tr td {
     padding: 50px;
 }
 
 /*Portfolio*/
-.portfolio p{
+.portfolio p {
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
-    padding: 30px;
+    padding: 70px;
     text-align: center;
 }
-.gridContainer1{
-   display: grid;
-grid-template-columns: 670px 670px;
-justify-content: center;
-gap: 20px;
+
+.gridContainer1 {
+    display: grid;
+    grid-template-columns: 670px 670px;
+    justify-content: center;
+    gap: 20px;
 }
-.gridContainer2{
+
+.gridContainer2 {
     display: grid;
     grid-template-columns: 670px 670px;
     grid-template-rows: auto;
     justify-content: center;
-    
+
     padding-bottom: 70px;
-    gap: 20px  ;
-}.gridItem1{
-    grid-column: 1/3;
-    
+    gap: 20px;
 }
-.gridItem2{
+
+.gridItem1 {
+    grid-column: 1/3;
+
+}
+
+.gridItem2 {
     grid-column: 1/2;
+}
+.gridItem4 {
+    grid-column: 1/3;
+
 }
 
 /*Contacto*/
 
-.flexContainer4{
+.flexContainer4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flexContainer5{
+
+.flexContainer5 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-div label{
+
+div label {
     padding: 25px
 }
-.botones div input{
+
+.botones div input {
     padding: 30px;
 }
-.botones{
+
+.botones {
     display: flex;
     justify-content: space-around;
     padding: 60px;
@@ -208,39 +224,124 @@ footer {
 
 }
 
-@media (max-width:667px){
-    
+@media (max-width:667px) {
+
     .header nav ul li {
         padding: 15px;
     }
 
     .flexContainer3 {
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
-    .gridContainer1{
+
+    .gridContainer1 {
         grid-template-columns: 670px;
         align-content: center;
     }
-    .gridContainer2{
+
+    .gridContainer2 {
         grid-template-columns: 670px;
         justify-content: center;
         align-content: center;
     }
-    .gridItem2{
-        grid-column:1/3;
-        justify-self: center;
-    }
-    .gridItem3{
+
+    .gridItem2 {
         grid-column: 1/3;
         justify-self: center;
     }
-    .gridItem4{
-        grid-row: 5/6;
-    
+
+    .gridItem3 {
+        grid-column: 1/3;
+        justify-self: center;
     }
-    
+
+    .gridItem4 {
+        grid-row: 5/6;
+
+    }
+
 }
 
-    
+@media (max-width:380px) {
 
+    .header nav ul {
+        font-weight: 500;
+        font-size: 14px;
+        width: 100%;
+        flex-flow: column;
+        flex-direction: column wrap;
+        align-items: flex-start;
+    }
+
+    .header nav ul li {
+        padding: 5px;
+    }
+
+
+    .header {
+        background-color: rgb(207, 207, 199);
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        height: 180px;
+        width: 100%;
+
+    }
+
+    .flexContainer {
+        padding: 5px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .introduccion {
+        font-style: italic;
+        font-weight: 300;
+        padding-right: 10px;
+        text-align: center;
+        padding-bottom: 70px;
+        padding-top: 45px;
+    }
+
+    section ol li {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .portfolio p {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 30px;
+        padding:70px;
+        text-align: center;
+    }
+
+.diseñoIndustrial div{
+    padding:0px;
+    transform: scale(0.7);
+}
+ 
+.gridContainer1 {
+height: 1400px;
+ width: 100%;
+ grid-template-columns: 335px;
+ grid-template-rows: 500px 500px 500px 500px 0px;
+ justify-items: center;
+}
+
+.Arquitectura div{
+    padding:0px;
+    transform: scale(0.5);
+}
+.gridContainer2{
+    width: 100%;
+    height: 800px;
+    grid-template-columns: 340px;
+    grid-template-rows: 390px 390px 300px ;
+}
